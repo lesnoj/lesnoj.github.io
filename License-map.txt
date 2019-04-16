@@ -1,0 +1,22 @@
+﻿Copyright and License
+This map has open data, licensed under the Open Data Commons Open Database License (ODbL).
+The cartography in our map tiles, and our documentation, are licensed under the Creative Commons Attribution-ShareAlike 2.0 license (CC BY-SA).
+
+You are free to copy, distribute, transmit and adapt our data, as long as you credit Anton Kuznetsov. If you alter or build upon our data, you may distribute the result only under the same license. The full legal code explains your rights and responsibilities. 
+(https://opendatacommons.org/licenses/odbl/)
+(https://creativecommons.org/licenses/by-sa/2.0/)
+
+
+How to credit our map tiles, and our documentation.
+We require that you use the credit “© Anton Kuznetsov”.
+
+You must also make it clear that the data is available under the Open Database License, and if using our map tiles, that the cartography is licensed as CC BY-SA. You may do this by linking to this copyright page. Alternatively, and as a requirement if you are distributing OSM in a data form, you can name and link directly to the license(s). In media where links are not possible (e.g. printed works), we suggest you direct your readers to https://lesnoj.github.io/, to opendatacommons.org, and if relevant, to creativecommons.org.
+
+For a browsable electronic map, the credit should appear in the corner of the map. For example:
+
+Пример того, как сослаться на OpenStreetMap с веб-страницы
+
+Finding out more
+Read more about using our data, and how to credit us, at the OSMF Licence page.
+
+Although this map has open data, we cannot provide a free-of-charge map API for third-parties. See our API Usage Policy, Tile Usage Policy and Nominatim Usage Policy.
