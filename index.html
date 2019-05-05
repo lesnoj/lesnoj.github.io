@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<style type="text/css">
+
+<!--Задание размера отображения карты на дисплее-->
+
+html, body { margin:0; padding: 0; height: 100%; width: 100%; }
+body { width:100%; height:100%; background: #ffffff; }
+	#map { position: absolute; height: 100%; width: 100%; }
+       
+</style>
+
+<head>
+<meta http-equiv="imagetoolbar" content="no"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>Карта Тинь-Зинь</title>
+ 
+    	<!--Подключение стилей и скрипта leaflet-->
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script> 
+    <link href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" rel="stylesheet"/>
+    <!--script src="leaflet_1_3_1.js"></script--> 
+    <!--link href="leaflet_1_3_1.css" rel="stylesheet"/-->
+ 
+	<!--Подключение стилей и скрипта для прозрачности слоев и управления показом слоев-->
+    <script src="opacity/L.Control.Opacity.js"></script> 
+    <link href="opacity/L.Control.Opacity.css" rel="stylesheet" />
+    <link href="opacity/stylesheet.css" rel="stylesheet" />
+
+	<!--Подключение стилей для загрузки GPX-->
+    <link rel="stylesheet" href="filelayer/normalize.min.css" />
+	<!--Подключение стилей для оформления кнопки загрузки GPX-->
+    <link rel="stylesheet" href="filelayer/style.css">
+
+	<!--Подключение стилей и скрипта для крестика в центре с координатами-->
+    <link rel="stylesheet" href="cross/L.Control.MapCenterCoord.min.css" />
+    <script src="cross/L.Control.MapCenterCoord.min.js"></script>
+
+	<!--Подключение стилей и скрипта измерительной линейки-->
+	<link rel="stylesheet" href="rul/Leaflet.PolylineMeasure.css" />
+	<script src="rul/Leaflet.PolylineMeasure.js"></script>
+
+
+	<!--Подключение скрипта посылания локации-->
+    <script src='send/Leaflet.LocationShare.js'></script>
+
+	<!--Подключение скрипта рисования трека-->
+    <script src="track/L.mytrack.js"></script>
+	
+	<!--Подключение скрипта и стилей класторизации маркеров-->
+	<link rel="stylesheet" href="clust/MarkerCluster.css" />	
+	<link rel="stylesheet" href="clust/MarkerCluster.Default.css" />
+	<script src="clust/leaflet.markercluster.js"></script>	
+
+	<!--Подключение скрипта и стилей выезжающей панели-->
+	<link rel="stylesheet" href="pan/L.Control.SlideMenu.css" />
+	<script src="pan/L.Control.SlideMenu.js"></script>
+
+	<!--Подключение иконки-->	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	
+	
+	
+
+</head>
+<body>
+     
+	<div id="map"></div>
+
+</body>
+
+	<!--Подключение скриптов для загрузки GPX-->
+<script src="filelayer/togeojson.js"></script>
+<script src="filelayer/leaflet-filelayer.js"></script>
+
+	<!--Главный скрипт-->
+<script src="filelayer/index.js"></script> 
+
+</html>
+ 
