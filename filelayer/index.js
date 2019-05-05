@@ -1057,13 +1057,13 @@
     			iconUrl: IconPhoto[i][3],
     			iconSize: [40, 40],  //для размера иконок 40х40 px iconAnchor: [12, 0]. для истинного для размера иконок 66х67 px iconAnchor: [17 0]
     			iconAnchor: [12, 0],
-				popupAnchor: [0, 250],  //позиция всплывающего сообщения относительно центра карты
+				popupAnchor: [0, 150],  //позиция всплывающего сообщения относительно центра карты
     		//	shadowUrl: 'mark/shadow.png', //отключить в случае стандарных иконок
     		//	shadowSize: [40, 40],
     		//	shadowAnchor: [2, 2]
 			});
 			
-			var marker = new L.Marker([IconPhoto[i][0],IconPhoto[i][1]], {icon:IconImg, title:IconPhoto[i][2], riseOnHover:true}).bindPopup(L.popup({minWidth:660, maxWidth:660}).setContent(IconPhoto[i][4])); //для маркеров-фотографий
+			var marker = new L.Marker([IconPhoto[i][0],IconPhoto[i][1]], {icon:IconImg, title:IconPhoto[i][2], riseOnHover:true}).bindPopup(L.popup({minWidth:360, maxWidth:360}).setContent(IconPhoto[i][4])); //для маркеров-фотографий
 			iconMarkerGroup.addLayer(marker);	
 		};
 
