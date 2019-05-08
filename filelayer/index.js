@@ -23,7 +23,7 @@
 	    });
  
 	    //2 layer
-	//    var layer2 = new L.tileLayer('/map/tiles_Openlayers_3/r/{z}/{x}/{y}.jpg', {
+	    var layer2 = new L.tileLayer('/map/tiles_Openlayers_3/r/{z}/{x}/{y}.jpg', {
 		  attribution: '&copy; <a href="https://github.com/lesnoj/lesnoj.github.io/blob/master/License-map.txt">Anton Kuznetsov </a>',
 			minZoom: 10,
 	     // minNativeZoom: 14,
