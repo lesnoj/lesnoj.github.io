@@ -1,6 +1,10 @@
-﻿BSD 2-Clause License
-Copyright (c) 2015-2019, Anton Kuznetsov
+Copyright (c) 2015-2023, Lesnoj GmbH
 All rights reserved.
+
+
+
+BSD 2-Clause License
+
 Copyright (c) 2012-2013, Jürgen Treml
 Copyright (c) 2017, PPete
 Copyright (c) 2016, Masashi Takeshita
